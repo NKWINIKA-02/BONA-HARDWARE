@@ -1,0 +1,160 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+  background-size: cover;
+  color: #000000;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #004d00;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .banner p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+  }
+  
+  nav {
+    background-color: #003300;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #006600;
+  }
+  
+  .intro {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  #products {
+    padding: 20px;
+    background-color: #e6e6e6;
+    text-align: center;
+  }
+  
+  .product-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    margin: 15px;
+  }
+  
+  .product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+  }
+  
+  #contact, #location {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .map-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  footer {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 30px 20px 10px;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-middle ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-middle li {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  border-top: 1px solid #555;
+  padding-top: 10px;
+}
+
+  
